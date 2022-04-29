@@ -1,0 +1,65 @@
+/* .logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+
+.logo1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+} */
+
+body {
+    background-color: blue;
+    display: flex;
+}
+
+
+/* Left Side CSS */
+.image {
+    height: 100vh;
+    width: 40vw;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.logo, .company {
+    height: 100px;
+    width: auto;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 550px;
+}
+
+/* Right Side CSS */
+.content {
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.container1 {
+    height: 33vh;
+}
+
+.container1 {
+    height: 33vh;
+}
+
+.container1 {
+    height: 33vh;
+}
