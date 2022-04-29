@@ -9,7 +9,7 @@
 } */
 
 body {
-    background-color: blue;
+    background-color: white;
     display: flex;
 }
 
@@ -52,14 +52,63 @@ body {
     display: flex;
     flex-direction: column;
 }
-.container1 {
-    height: 33vh;
-}
 
 .container1 {
+    background-color: rgb(226, 226, 226, .4);
     height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.container1 {
+.container1-text1{
+    font-size: clamp(20px, 4vw, 30px);
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.container1-text2{
+    font-size: clamp(20px, 4vw, 30px);
+    padding-left: 25px;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.container2 {
     height: 33vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.container2 h1 {
+    width: 100%;
+    padding-left: 25px;
+    align-self: center;
+    margin: 0;
+}
+
+.input-element{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 40%;
+}
+
+.inputs{
+    height: 20px;
+}
+
+
+
+
+.container3 {
+    height: 34vh;
+    background-color: rgb(226, 226, 226, .4);
 }
