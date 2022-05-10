@@ -58,14 +58,14 @@ body {
 
 .container1 {
     background-color: rgb(226, 226, 226, .4);
-    height: 35vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
 .container1-text1{
-    font-size: clamp(20px, 4vw, 30px);
+    font-size: clamp(15px, 4vw, 30px);
     margin: 0;
     padding-left: 25px;
     padding-top: 25px;
@@ -74,7 +74,7 @@ body {
 }
 
 .container1-text2{
-    font-size: clamp(20px, 4vw, 30px);
+    font-size: clamp(15px, 4vw, 30px);
     padding-left: 25px;
     font-family: 'Acme', sans-serif;
     padding-bottom: 20px;
@@ -82,7 +82,7 @@ body {
 }
 
 .container2 {
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -110,12 +110,12 @@ body {
     min-width: 40%;
     margin-right: 15px;
     margin-bottom: 5px;
-    /* margin-left: clamp(10px, 25px, 40px); */
+    margin-left: clamp(10px, 25px, 40px);
 }
 
 .inputs{
     height: 20px;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 .submit{
